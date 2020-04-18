@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"
+        integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="./scripts/style.css">
+    <title>Make</title>
+</head>
+
+<body>
+
+    <div class="container myMainContainer">
+
+        <div class="jumbotron">
+            <span class="glyphicon glyphicon-fire"></span>
+            <h1 class="display-4">Hot Restaurant</h1>
+            <hr class="my-4">
+            <p>We only have 5 tables! Book your seat before they all are gone!.</p>
+            <a class="btn btn-primary btn-lg" href="view.html" role="button">View Tables</a>
+            <a class="btn btn-primary btn-lg" href="home.html" role="button">Home</a>
+        </div>
+
+        <div class="panel-body">
+
+            <form role="form">
+
+                <div class="form-group">
+                    <label for="">Name</label>
+                    <input type="text" class="form-control" id="reserve_name">
+                </div>
+
+                <div class="form-group">
+                    <label for="">Phone Number</label>
+                    <input type="text" class="form-control" id="reserve_phone">
+                </div>
+
+                <div class="form-group">
+                    <label for="">Email</label>
+                    <input type="text" class="form-control" id="reserve_email">
+                </div>
+
+                <div class="form-group">
+                    <label for="">Unique ID</label>
+                    <input type="text" class="form-control" id="reserve_uniqueID">
+                </div>
+
+                <button type="submit" class="btn btn-primary submit">Submit</button>
+            </form>
+
+        </div>
+    </div>
+
+    <script src="./scripts/script.js"></script>
+</body>
+
+</html>

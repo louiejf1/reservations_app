@@ -1,0 +1,14 @@
+{
+  "name": "reservations_app",
+  "version": "1.0.0",
+  "description": "Reservations application for restaurants",
+  "main": "home.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "author": "Ludwig Flores",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
